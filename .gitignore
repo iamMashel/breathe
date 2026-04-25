@@ -1,0 +1,41 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# uv / pip
+.uv/
+*.egg-info/
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Alembic (keep versions/, ignore compiled)
+alembic/__pycache__/
