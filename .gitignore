@@ -39,3 +39,10 @@ Thumbs.db
 
 # Alembic (keep versions/, ignore compiled)
 alembic/__pycache__/
+
+# Nuxt / Node.js (web/)
+web/node_modules/
+web/.nuxt/
+web/.output/
+web/.env
+web/dist/
